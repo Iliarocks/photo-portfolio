@@ -1,0 +1,21 @@
+#photos {
+    margin-top: 70px;
+    width: 100vw;
+}
+
+#photos > #column-container {
+    display: flex;
+    gap: 15px;
+    margin: 20px 5%;
+}
+
+#photos > #column-container > #column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#photos > #column-container > #column > img {
+   width: 100%;
+}
+

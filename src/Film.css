@@ -1,0 +1,31 @@
+#film {
+    margin-top: 70px;
+    width: 100vw;
+    height: calc(100vh - 90px);
+}
+
+#film > #grid {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    margin: 20px 5%;
+}
+
+#film > #grid > iframe {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
+@media only screen and (max-width: 1000px) {
+    #film > #grid > iframe {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #film > #grid > iframe {
+        aspect-ratio: 9/16;
+        width: 100%;
+    }
+}
+
